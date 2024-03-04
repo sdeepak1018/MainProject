@@ -5,8 +5,8 @@
 	</listeners>
 	<groups>
 		  <run>
-			  <include name="SmokeTest"></include>
-			  <!--<include name="RegressionTest"></include>-->
+			 
+			  <include name="RegressionTest"></include>
 		  </run>
 	  </groups>
   <test thread-count="5" name="Test">
