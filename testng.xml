@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<listeners>
+		<listener class-name="testng_hackathon.ExtentedReportManager"/>
+	</listeners>
+	<groups>
+		  <run>
+			  <include name="SmokeTest"></include>
+			  <!--<include name="RegressionTest"></include>-->
+		  </run>
+	  </groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng_hackathon.LoanCalculator"/>
+      <class name="testng_hackathon.SmokeTest"/>
+      <class name="test_Runner.TestRun"/>
+      <class name="test_Runner.testRunnerSmoke"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

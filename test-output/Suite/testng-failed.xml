@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testng_hackathon.LoanCalculator">
+        <methods>
+          <include name="testLogo"/>
+          <include name="Car_Loan"/>
+          <include name="HomeLoan_Write"/>
+          <include name="setup"/>
+          <include name="EMI_Calculation"/>
+          <include name="HomeLoan_Data"/>
+          <include name="Home_Loan"/>
+        </methods>
+      </class> <!-- testng_hackathon.LoanCalculator -->
+      <class name="Project.HomeLoan">
+        <methods>
+          <include name="setup"/>
+          <include name="HomeLoan_Write"/>
+          <include name="HomeLoan_Data"/>
+          <include name="Home_Loan"/>
+        </methods>
+      </class> <!-- Project.HomeLoan -->
+      <class name="Project.CarLoan">
+        <methods>
+          <include name="setup"/>
+          <include name="EMI_Calculation"/>
+          <include name="Car_Loan"/>
+          <include name="testLogo"/>
+        </methods>
+      </class> <!-- Project.CarLoan -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
